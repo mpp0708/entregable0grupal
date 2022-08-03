@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/IMG/fondo.jpg"); /*no me toma la imagen de fondo*/
+}
+.registro{
+    width: 400px;
+    background-color: #31343D;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #FFECC5;
+    box-shadow: 5px 5px 15px #000; /*le agrega sombra al formulario*/
+}
+.registro h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.campo{
+    width: 100%;
+    background-color: #D1B88F;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #FFECC5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.registro p{
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;  /*centra el texto*/ 
+}
+.registro a{
+    color: #FFECC5;
+    text-decoration: none;
+}
+.registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.boton{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: #31343D;
+    margin:16px 0 ;
+}
